@@ -10,7 +10,7 @@
 .imagen {
   position: absolute;
   inset: 0;
-  background-image: url('/imagenes/inicio1.jpg');
+  background-image: url('assets/imagenes/portada.jpg');
   background-size: cover;
   background-position: center;
 }

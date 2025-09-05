@@ -108,7 +108,21 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/invitacion-digital-2/",
+            "repo": "git@github.com:josejzuritaal/invitacion-digital-2.git",
+            "name": "Jose Zurita",
+            "email": "tu_correo@ejemplo.com"
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "invitacion-digital:build:production"
+            },
+            "development": {
+              "buildTarget": "invitacion-digital:build:development"
+            }
+          }
         }
       }
     }
